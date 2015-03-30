@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background-color: #efefef;
+}
+
+/*..........*//*Todo este es el codigo del header*/
+header{
+	height: 75px;
+	right: 100%;
+	background-color: #213338;
+}
+
+.wrapper{
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+header .logo{
+	color: #f2f2f2;
+	font-size: 50px;
+	line-height: 75px;
+	float: left;
+}
+
+header nav{
+	float: right;
+	line-height: 75px;
+}
+
+header nav p{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+header nav p:hover{
+	background-color: #f56f3a;
+	border-radius: 20px;
+}
+/*..........*//*Aqui termina el header*/
+
+/*..........*//*Aqui esta el section de adorno*/
+#dos{
+	height: 160px;
+	right: 100%;
+	background-color:  #2ecc71;
+}
+/*..........*//*Aqui termina el section de adorno*/
+
+
+/*Comienza el main*/
+
+.main{
+	margin: auto;
+	margin-top: 30px;
+	height:auto;
+	max-width: 1110px;
+	border:2px solid;
+ margin-bottom: 70px;
+ background-color: white;
+}
+
+#tupa{
+	width: 100%;
+	height:110px;
+	background-color: #1caff6;
+	border-bottom: solid 2px;
+	margin-bottom: 30px;
+}
+
+.titulo{
+	float: left;
+	height: 120px;
+	width: 85%;
+	text-align: center;
+}
+
+.doce{
+	clear: both;
+	margin-top: 30px;
+	font-size: 3em;
+	font-weight: bolder;
+	color: white;
+}
+.doceymedio{
+	clear: both;
+	margin-top: 30px;
+	font-size: 2.5em;
+	font-weight: bolder;
+	color: white;
+}
+.docedos{
+	clear: both;
+	margin-top: 30px;
+	font-size: 2em;
+	font-weight: bolder;
+	color: white;
+}
+
+.docetres{
+	clear: both;
+	margin-top: 30px;
+	font-size: 1.8em;
+	font-weight: bolder;
+	color: white;
+}
+
+
+/*estilos de letras*/
+.subtitulouno{
+	color: #757575;
+	font-size: 2em;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	margin-top:50px; 
+}
+
+.subtitulodos{
+	color: #757575;
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	margin-top:50px; 
+}
+
+
+.textoleccion{
+	width: 90%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	font-weight: ;
+	line-height: 34px;
+} 
+
+.textoleccionsin{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	font-weight: ;
+	line-height: 34px;
+	
+	font-weight: bold;
+}
+ 
+.textoleccionespaciado{
+	width: 90%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	font-weight: ;
+	line-height: 34px;
+	margin-bottom: 10px;
+}
+
+.textolecciongrande{
+	width: 90%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	font-weight:bolder;
+	line-height: 34px;
+	margin-bottom: 12px;
+}
+
+.textoleccionpequeña{
+	width: 90%;
+	font-family: 'Lato', sans-serif;
+	font-size: .85em;
+	font-weight:;
+	line-height: 34px;
+}
+.textoleccionjusto{ width: 90%; font-family: 'Lato', sans-serif; font-size: 1.1em;
+	line-height: 34px;
+	text-align: justify;
+}
+
+.textoleccionjustoespaciado{ width: 90%; font-family: 'Lato', sans-serif; font-size: 1.1em;
+	line-height: 34px;
+	text-align: justify;
+	margin-bottom: 12px;
+}
+/*estilos termina*/
+
+/*$texto para el article$*/ 
+
+/*aqui abajo va el footer*/
+
+footer{
+	width: 100%;
+	height: 120px;
+	background-color: #213338;
+}
+
+
+
+/*jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj*/
+article.leccion{
+	margin-left: 70px;
+	padding-bottom: 100px;
+}
+
+@media screen and (max-width:800px){
+	.main{
+		width: 800px;
+		
+	}
+	header{
+		width: 800px;
+	}
+	div#dos{
+		width: 800px
+	}
+} 
